@@ -1,6 +1,6 @@
 language: "auto"
-text_language: "中文"
-ref_audio: "/home/yumio/Code/MHCP_Momotalk/TTS/ref_audio/reference.MP3"
+text_language: "日文"
+ref_audio: "/home/yumio/Code/MHCP_Momotalk/TTS/ref_audio/hina1.mp3"
 ref_audio_list: null
 prompt_text: "先生。今日も全力であなたをアシストしますね。"
 prompt_language: "日文"
@@ -17,8 +17,8 @@ seed: -1
 keep_random: True
 parallel_infer: True
 repetition_penalty: 1.35
-gpt_path: "/home/yumio/Code/MHCP_Momotalk/TTS/GPT_weights_v2/早濑优香-e10.ckpt"
-sovits_path: "/home/yumio/Code/MHCP_Momotalk/TTS/SoVITS_weights_v2/早濑优香_e10_s180.pth"
+gpt_path: "/home/yumio/Code/MHCP_Momotalk/TTS/GPT_weights_v2/空崎日奈-e10.ckpt"
+sovits_path: "/home/yumio/Code/MHCP_Momotalk/TTS/SoVITS_weights_v2/空崎日奈_e10_s90.pth"
 cnhubert_base_path: "/home/yumio/Code/MHCP_Momotalk/TTS/GPT_SoVITS/pretrained_models/chinese-hubert-base"
 bert_path: "/home/yumio/Code/MHCP_Momotalk/TTS/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large"
 pretrained_sovits_path: "/home/yumio/Code/MHCP_Momotalk/TTS/GPT_SoVITS/pretrained_models/s2G488k.pth"

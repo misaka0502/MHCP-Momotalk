@@ -1,8 +1,11 @@
-from Chat_characters import Momotalk
+from Characters.Chat_characters import Momotalk
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import warnings
 warnings.simplefilter("ignore")
-role = "yuuka"
+role = "hina"
+
+chat_language = "zh"
+speech_language = "jp"
 
 momotalk = Momotalk(role)
 chat = momotalk.start_chat()
